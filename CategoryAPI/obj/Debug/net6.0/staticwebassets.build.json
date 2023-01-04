@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "3b166tYLaPPDqxyKt0pCdNe3o4zWvnH3FDqz+0EPj1I=",
+  "Hash": "5+oZRMQf8GjoeNTEAbnh7vNp+vqVNszDwfNgZUet04o=",
   "Source": "CategoryAPI",
   "BasePath": "_content/CategoryAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "CategoryAPI\\wwwroot",
+      "Source": "CategoryAPI",
+      "ContentRoot": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\",
+      "BasePath": "_content/CategoryAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\Pics\\Ring1.jfif",
+      "SourceId": "CategoryAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\",
+      "BasePath": "_content/CategoryAPI",
+      "RelativePath": "Pics/Ring1.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pics\\Ring1.jfif"
+    }
+  ]
 }

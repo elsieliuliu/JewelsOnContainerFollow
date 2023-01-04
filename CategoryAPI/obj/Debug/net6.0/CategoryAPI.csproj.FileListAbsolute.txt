@@ -65,3 +65,4 @@ C:\Kal Project\JewelsOnContainerFollow\CategoryAPI\obj\Debug\net6.0\refint\Categ
 C:\Kal Project\JewelsOnContainerFollow\CategoryAPI\obj\Debug\net6.0\CategoryAPI.pdb
 C:\Kal Project\JewelsOnContainerFollow\CategoryAPI\obj\Debug\net6.0\CategoryAPI.genruntimeconfig.cache
 C:\Kal Project\JewelsOnContainerFollow\CategoryAPI\obj\Debug\net6.0\ref\CategoryAPI.dll
+C:\Kal Project\JewelsOnContainerFollow\CategoryAPI\bin\Debug\net6.0\CategoryAPI.staticwebassets.runtime.json
