@@ -1,5 +1,6 @@
 ﻿using CategoryAPI.Data;
 using CategoryAPI.Domain;
+using CategoryAPI.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -35,6 +36,7 @@ namespace CategoryAPI.Controllers
         public async Task<IActionResult> Items(
             [FromQuery]int pageIndex = 0, [FromQuery]int pageSize = 6)
         {
+            var itemsCount = _context.CatelogueItems.LongCountAsync();
             var items = await _context.CatelogueItems
                 .OrderBy(c => c.Name)
                 .Skip(pageIndex * pageSize)
@@ -42,7 +44,18 @@ namespace CategoryAPI.Controllers
                 .ToListAsync();
             items = ChangePictureUrl(items);
 
-            return Ok(items);
+            var model = new PaginatedItemsViewModel
+            {
+                PageIndex = pageIndex,
+                PageSize = items.Count,
+                Data = items,
+                Count = itemsCount.Result
+
+
+
+            };
+
+            return Ok(model);
 
         }
 
