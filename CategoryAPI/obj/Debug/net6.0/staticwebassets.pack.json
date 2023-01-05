@@ -1,8 +1,16 @@
 {
   "Files": [
     {
-      "Id": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\Pics\\Ring1.jfif",
-      "PackagePath": "staticwebassets\\Pics\\Ring1.jfif"
+      "Id": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\Pics\\Ring1.jpg.jfif",
+      "PackagePath": "staticwebassets\\Pics\\Ring1.jpg.jfif"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\Pics\\Ring2.jpg.jfif",
+      "PackagePath": "staticwebassets\\Pics\\Ring2.jpg.jfif"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\Pics\\Ring3.jpg.jfif",
+      "PackagePath": "staticwebassets\\Pics\\Ring3.jpg.jfif"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CategoryAPI.Microsoft.AspNetCore.StaticWebAssets.props",

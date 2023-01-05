@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5+oZRMQf8GjoeNTEAbnh7vNp+vqVNszDwfNgZUet04o=",
+  "Hash": "Y/d9KSSuA44SIiiHSiXdi9DG98lIJ+UH4ATrIubRaNI=",
   "Source": "CategoryAPI",
   "BasePath": "_content/CategoryAPI",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\Pics\\Ring1.jfif",
+      "Identity": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\Pics\\Ring1.jpg.jfif",
       "SourceId": "CategoryAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\",
       "BasePath": "_content/CategoryAPI",
-      "RelativePath": "Pics/Ring1.jfif",
+      "RelativePath": "Pics/Ring1.jpg.jfif",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,7 +31,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Pics\\Ring1.jfif"
+      "OriginalItemSpec": "wwwroot\\Pics\\Ring1.jpg.jfif"
+    },
+    {
+      "Identity": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\Pics\\Ring2.jpg.jfif",
+      "SourceId": "CategoryAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\",
+      "BasePath": "_content/CategoryAPI",
+      "RelativePath": "Pics/Ring2.jpg.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pics\\Ring2.jpg.jfif"
+    },
+    {
+      "Identity": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\Pics\\Ring3.jpg.jfif",
+      "SourceId": "CategoryAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Kal Project\\JewelsOnContainerFollow\\CategoryAPI\\wwwroot\\",
+      "BasePath": "_content/CategoryAPI",
+      "RelativePath": "Pics/Ring3.jpg.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pics\\Ring3.jpg.jfif"
     }
   ]
 }
