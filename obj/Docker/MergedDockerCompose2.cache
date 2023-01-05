@@ -1,0 +1,25 @@
+name: dockercompose14385201837997744552
+services:
+  catalog:
+    build:
+      context: C:\Kal Project\JewelsOnContainerFollow\CategoryAPI
+      dockerfile: Dockerfile
+    container_name: jewelscatalogapi
+    environment:
+      ConnectionString: Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=CatalogDb;Integrated
+        Security=True;Connect Timeout=30;
+      ExternalBaseUrl: https://localhost:7777
+    image: jewels/catalogapi
+    networks:
+      backend: null
+      frontend: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "7777"
+      protocol: tcp
+networks:
+  backend:
+    name: dockercompose14385201837997744552_backend
+  frontend:
+    name: dockercompose14385201837997744552_frontend

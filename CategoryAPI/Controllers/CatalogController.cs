@@ -51,8 +51,6 @@ namespace CategoryAPI.Controllers
                 Data = items,
                 Count = itemsCount.Result
 
-
-
             };
 
             return Ok(model);
